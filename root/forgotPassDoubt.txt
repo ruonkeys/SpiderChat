@@ -1,0 +1,2 @@
+ _("forgotpassform").innerHTML="hello <?php echo $u; ?> your temporary password is <?php echo $temp_pass; ?>"
+    					 _("forgotpassform").innerHTML+="<a href='forgot_pass.php?u='"+e+"&tp='<?php echo $temp_pass; ?>'>click here to login using temporary password</a>";

@@ -1,0 +1,75 @@
+//to center align div
+margin: 0px auto;
+
+include_once("test.php");
+
+if(mysqli_connect_errno())
+{
+---------
+}
+
+rand() method, CURRENT_DATE,like binary in sql query 
+
+-----------DOUBTS---------------
+->how to mail using localhost
+->php.ini files for security purpose(explore)
+->.htaccess file
+->randomStringGenerator
+->how to create error log text files
+->mail() function in php
+->getenv('REMOTE_ADDR')
+->how to check value of $query in $query = mysqli_query($conn, $sql);
+->return value of mysqli_query(---) in case of select, insert, update etc. queries
+->are variables in one script seen to others Eg. <?php  $conn=----?>
+   <?php $conn// is accessible???......   ?>
+->setRequestHeader(---) in ajax.js
+->which case should i use in php for methods, variables etc.
+-> if some var is boolean like $query then with which(0/1/TRUE/FALSE) should i compare it, echo $query outputs 1 in case of insert
+->how to design dropdown of <select> list
+->which case should i use for JS attributes onClick OR onclick
+->in query/string how to use variables "+var+" OR '$var'
+-> mystery of ' ' and " " in RahulPHP/test.php
+->RahulPHP/urlsent.html  why not " " in params 
+---------------------------------
+    SOLUTION-by default every data in url encoding is considered as string
+---------------------------------
+->use of # in regEx of preg_replace()
+->if we are having name and id in our <input > tag then which param should i pass in $_GET[' ']
+->scope of variables in PHP eg.
+<?php
+$e=$_GET['email'];
+?>
+if(condition)
+{
+    $e=fetched value of email from db,using query;
+    if($e==$e)
+    {
+        which variable is which one
+    }
+}
+->in php if i am defining a variable inside while loop then what would be the scope of that variable
+->onclick="alert(\"working\")" , why is this not working
+->when to use mysqli_real_escape_string(_) and when to use pre_replace(_), look at signChk.php
+->test.php in SpiderChat, variables scope
+->what sort of clever things hackers may do, due to which in order to prevent us from that we are having that check_login_status script in our friend_system.php and block_system.php
+->exact code for keeping header fixed
+->when to have single quotes around the variable name eg. of JS
+var conf = confirm("Press OK to confirm the '"+type+"' action for user <?php echo $u; ?>."); 
+->console output in php
+->in template_top.php on line 12 on writing $notes_date[0] it is showing error on line 13 that mysqli_query() expects Ist param as mysqli_result() but boolean is passed, while on writing '$notes_date[0]' it's working perfectly fine
+->A COMPLETE LECTURE OVER MAKING A PAGE RESPONSIVE, AND DISCUSSING ALL REQUIREMENTS, BEST PRACTICES AND HURDLES IN MAKING ANY PAGE RESPONSIVE  
+->how to design confirm boxes
+->$sql = "update users set notescheck=now() where username='$login_username'"
+does in JAVA also if we have to use some method in query then we do like this or we have to add +method()+ 
+-><input type="file" name="photo" accept="image/*" required>, what does this accept attribute do
+->"status_'.$statusid.' " what is this way of using quotes
+->how to change background-color of select option list on hovering
+->scope of this keyword and to what it refer in JS, PHP, java  
+-><a href="user.php?u='.$account_name.'#status_'.$osid.'">Click here to view the conversation</a>, is it ok to have bookmark link href along with page link
+->padding-top/padding-bottom/margin-top/margin-bottom not working in friend_list.php
+-> scope of attributes eg. <button id="btn">send</button>, this id attribute can be accessed by JS function in <script> even though we are not passing it as a parameter
+->do we have to put ' ' around every php variable we are using in sql query
+->on providing parameter to JS using <?php echo $varName ?>, we have to wrap it inside ' ', why??? 
+->see animations at viget.com, atom.io
+->in sql query we have to wrap all the php variables names inside ' ' in order to have our function working correctly
+->is it necessary to wrap <?php----?> inside ' ' while writing such code inside JS or HTML
